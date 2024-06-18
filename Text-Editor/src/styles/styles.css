@@ -1,0 +1,76 @@
+/* styles.css */
+.ql-toolbar {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    height: 50px; /* Increase the height of the toolbar */
+    display: flex;
+    align-items: center; /* Center align the toolbar items */
+  }
+  
+  .ql-toolbar .ql-formats {
+    margin: 0 5px;
+  }
+  
+  .ql-toolbar .ql-picker {
+    height: 40px; /* Adjust the height of the picker elements */
+  }
+  
+  .ql-toolbar .ql-picker-label {
+    padding: 8px 10px; /* Adjust the padding for picker labels */
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ql-toolbar .ql-picker-options {
+    margin-top: 5px;
+  }
+  
+  .ql-toolbar button,
+  .ql-toolbar select {
+    margin: 5px; /* Adjust the margin around buttons and selects */
+    padding: 8px 10px; /* Adjust the padding within buttons and selects */
+    height: 40px; /* Adjust the height for better alignment */
+  }
+  
+  .ql-container {
+    border: 1px solid #ddd;
+    min-height: 200px;
+  }
+  
+  /* Custom font CSS */
+  .ql-font-comic-sans,
+  .ql-font span[data-value="comic-sans"]::before {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  .ql-font-times-new-roman,
+  .ql-font span[data-value="times-new-roman"]::before {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .ql-font-arial,
+  .ql-font span[data-value="arial"]::before {
+    font-family: Arial, sans-serif;
+  }
+  
+  .ql-font-courier-new,
+  .ql-font span[data-value="courier-new"]::before {
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .ql-font-georgia,
+  .ql-font span[data-value="georgia"]::before {
+    font-family: Georgia, serif;
+  }
+  
+  .ql-font-helvetica,
+  .ql-font span[data-value="helvetica"]::before {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .ql-font-lucida,
+  .ql-font span[data-value="lucida"]::before {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  

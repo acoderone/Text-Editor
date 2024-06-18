@@ -1,0 +1,4 @@
+.ql-font-arial,
+.ql-font span[data-value="times new roman"]::before {
+  font-family: "Tinos", serif;
+}
