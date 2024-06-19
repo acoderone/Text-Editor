@@ -10,7 +10,9 @@
 #toolbar{
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
+
 
 .ql-toolbar {
   border: 1px solid #ddd;
@@ -21,7 +23,7 @@
 }
 
 .ql-toolbar .ql-formats {
-  margin: 0 5px;
+ 
 }
 
 .ql-toolbar .ql-picker {
