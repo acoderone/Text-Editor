@@ -1,6 +1,6 @@
 import React from 'react';
 import { Quill } from 'react-quill';
-import '../styles/styles.css';
+
 
 // Custom Undo button icon component for Quill editor
 const CustomUndo = () => (
@@ -87,6 +87,7 @@ export const formats = [
 export const EditorToolbar = () => (
   <div id="toolbar">
     <span className="ql-formats">
+      <div>
       <select className="ql-font" defaultValue="arial">
         <option value="arial">Arial</option>
         <option value="comic-sans">Comic Sans</option>
@@ -107,6 +108,8 @@ export const EditorToolbar = () => (
         <option value="2">Subheading</option>
         <option value="3">Normal</option>
       </select>
+      </div>
+     
     </span>
     <span className="ql-formats">
       <button className="ql-bold" />
